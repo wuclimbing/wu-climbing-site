@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-export class AboutPage extends React.Component {
+export default class AboutPage extends React.Component {
   constructor() {
     super()
 

@@ -6,7 +6,8 @@ export const data = {
   faqs_page:{
     title: 'Faqs',
     faqs: [
-      ["Where do we climb", ""]
+      ["Where do we climb", "upper limits"],
+      ['what do we climb', 'rocks']
     ],
 
 

@@ -2,8 +2,13 @@ html, body
   margin: 0
   padding: 0
   box-sizing: border-box
+  font-family: sans-serif
 
-.home-page-wrapper
+*
+  box-sizing: border-box
+  margin: 0
+
+.home-wrapper
   position: absolute
   top: 0
   left: 0
@@ -41,15 +46,37 @@ html, body
 
 ////////////////////////////////////////////////////////////////////////
 .faqs-page-wrapper
+  // border-radius: 100%
+  position: absolute
+  top: 0%
+  left: 0%
+  width: 100%
+  height: 100%
   background-color: blue
   color: white
-  .faq-page-inner
-    justify-content: space-between
+  .faqs-page-inner
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    justify-content: space-around
     align-items: center
     .faq
-      width: 400px
-      height: 300px
-      border: 1px solid white
+      margin: 50px 50px
+      width: 250px
+      height: auto
+      min-height: 200px
+      border: 2px solid white
+      h2
+        width: 100%
+        padding: 20px 
+        border-bottom: 2px solid white
+        font-size: 14px
+      h3
+        padding: 20px
+        font-size: 14px
+
 
 ////////////////////////////////////////////////////////////////////////
 .contact-page-wrapper
@@ -58,3 +85,51 @@ html, body
 
 ////////////////////////////////////////////////////////////////////////
 .home-page-wrapper
+
+
+.content-enter 
+  transition: transform 666ms ease 
+  transform: scale(0) rotate(-360deg)
+
+
+.content-enter.content-enter-active 
+  transition: transform 666ms ease 
+  transform: scale(1) rotate(0deg)
+
+
+.content-leave 
+  transition: transform 666ms ease 
+  transform: scale(1) rotate(0deg)
+
+.content-leave.content-leave-active 
+  transition: transform 666ms ease 
+  transform: scale(0) rotate(360deg)
+
+
+////////////////////////////////////////////////////////////////////////
+.menu-button-wrapper
+  position: absolute
+  left: 50%
+  top: 50%
+  transform: translate(-50%, -50%)
+  height: 50px
+
+.menu-dropdown
+  width: 10px
+  overflow: hidden
+  height: 10px
+  border: 1px solid gold
+  border-radius: 100%
+  margin: auto
+  margin-top: 10px
+  transition: transform 333ms ease, border-radius 333ms ease
+  &:hover
+    transform: rotate(90deg) scale(1.5)
+  &.dropdownOpen
+    border-radius: 0
+    height: auto
+    .menu-dropdown-content
+      .dropdownClosed &
+        pointer-events: none
+
+   

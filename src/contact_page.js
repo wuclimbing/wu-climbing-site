@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-export class ContactPage extends React.Component {
+export default class ContactPage extends React.Component {
   constructor() {
     super()
 
