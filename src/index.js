@@ -1,9 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import {data as data} from './siteData'
 import HomePage from './home_page.js'
 import './index.sass'
-
 
 export class App extends React.Component {
   constructor() {
