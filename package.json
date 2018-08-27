@@ -4,7 +4,8 @@
   "description": "",
   "private": true,
   "scripts": {
-    "build": "webpack",
+    "publish": "webpack && git add dist/* && git commit -m 'pushing to production' && git push",
+    "deploy": "gh-pages -d dist",
     "dev": "webpack-dev-server"
   },
   "repository": {
@@ -24,6 +25,7 @@
     "babel-preset-react": "^6.24.1",
     "css-loader": "^1.0.0",
     "file-loader": "^2.0.0",
+    "gh-pages": "^1.2.0",
     "node-sass": "^4.9.3",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.22.1",

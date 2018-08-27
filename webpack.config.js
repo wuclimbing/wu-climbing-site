@@ -35,7 +35,7 @@ module.exports = {
     ]
   },
   output: {
-    filename: 'site.bundle.js',
+    filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist')
   }
 };
