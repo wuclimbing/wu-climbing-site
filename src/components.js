@@ -94,12 +94,20 @@ export class WindowContainer extends React.Component {
       transform : `translate(${this.state.transform.left}px, ${this.state.transform.top}px)`,
       top: this.props.top,
       left: this.props.left,
-      width: this.props.width
+      width: this.props.width,
+      maxHeight: this.props.maxHeight
     }
 
     return (
-      <div className="window-container" style={style} onMouseDown={this.onMouseDown} ref={this.containerRef} onClick={this.props.onClick}>
-        <header className="window-container-header">
+      <div 
+        className={this.props.header ? 'window-container wHeader' : 'window-container'} 
+        style={style} 
+        onMouseDown={this.onMouseDown} 
+        onClick={this.props.onClick}
+        ref={this.containerRef} 
+      >
+        <header className='window-container-header wHeader'>
+          {this.props.header}
           <input type="button" onClick={this.onCloseClick} value="X"/>
         </header>
         {this.props.children}
