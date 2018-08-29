@@ -182,7 +182,7 @@ export default class HomePage extends React.Component {
             Tickets Available for Holy Boulders Comp
           </h3>
           <p className="home-news">
-            The Holy Boulders competition in southern illinois is happening 
+            The Holy Boulders competition in southern illinois is happening on November 2nd, and the climbing club will be able to reimburse some or all of your entry fee. We will be posting a google form soon to sign up for reimbursement, and to organize carpools and camping for the event. Keep your eye out!
           </p>
           </WindowContainer>
           

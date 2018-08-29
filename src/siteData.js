@@ -51,7 +51,7 @@ export const data = {
         width: "45%",
         maxHeight: '200px',
         sectionHeader: "Comps!",
-        copy: "WU Climbing Team is an informal group of students that carpool together, climb together at the gym, and optionally compete in competitions and climb outdoors on the weekends. Practices happen three days a week, and outdoor trips/competitions occur throughout the semester. There is no team coach; team leadership members will help new climbers get started, teaching new members how to belay and climbing basics, but the majority of teaching and learning is cooperative."
+        copy: "Club members are encouraged - but not required - to compete in local climbing competitions happening throughout the school year. At the comps, we work together, cheer each other on, and party. Climbing competitions are oriented towards varying skill levels, so they are a good time for all. The two comps that we frequently attend are the Holy Boulders Testament, and the So Ill Showdown. Keep an eye out for news on those comps, as we are often able to reimburse tickets!"
       }
     ]
   },
