@@ -18,22 +18,22 @@ export const data = {
         body: (
           <React.Fragment>
             <h3 className="header">
-              Fall Semester Sale!
+              Spring Semester Sale!
             </h3>
             <p className="home-news">
-              We are selling fall memberships on Thursday, September 6th, from 6 to 10pm. This is the only chance to purchase a membership. Read more on the membership page.
+              Our spring membership sale has already passed, so if you are interested in becoming involved but did not purchase a membership through us we suggest purchasing a regular membership through the gym and joining our GroupMe <a href="https://groupme.com/join_group/57155868/89fk2bMH" target="_blank">here</a>.
             </p>
             <h3 className="header">
               Spring memberships are active!
             </h3>
             <p className="home-news">
-              If you purchased a membership this previous spring, it is active from now through Saturday, September 8th.
+              Spring memberships are active! If you purchased an Upper Limits membership this spring, it is active through May 31st. If you purchased a Climb So iLL membership, it is active through May 6th.
             </p>
             <h3 className="header">
-              Tickets Available for Holy Boulders Comp
+              So iLL Showdown
             </h3>
             <p className="home-news">
-              The Holy Boulders competition in southern illinois is happening on November 2nd. If you want to compete, the climbing club will likely be able to reimburse some or all of your entry fee. We will be posting a google form soon to sign up for reimbursement, and to organize carpools and camping for the event. Keep your eye out!
+              Stay tuned for information about the So iLL Showdown, this semester's subsidized competition.
             </p>
           </React.Fragment>
         )
@@ -92,7 +92,7 @@ export const data = {
         maxHeight: '31vh',
         sectionHeader: "Trips!",
         copy: `Members of the club organize, lead and participate in a number of outdoor climbing trips each school year. Larger trips include a Labor Day trip to Horseshoe Canyon Ranch, a Fall Break trip to the Red River Gorge, and a Spring Break trip to a to be determined destination. All trips are optional, and for larger trips with limited space priority is given to members who particpate in weekly practices.
-        
+
         Smaller trips, on the fly trips happen most weekends and go to local spots like Jackson Falls, the Holy Boulders and the renowned Pere Marquette SP.`
       },
       {
@@ -115,35 +115,35 @@ export const data = {
         left: "45vw",
         width: "45vw",
         maxHeight: '65vh',
-        sectionHeader: "Membership Sale Thursday Sep 6",
-        copy: `Fall memberships will be sold this upcoming Thursday, September 6th from 6pm - 10pm, in the Danforth University Center on the ground floor at the tables nearest the field. Any faculty, staff, student or associate of Wash U can purchase a discounted memberships. Student memberships are further discounted through the climbing club and student union. Memberships can be purchased with cash, check, credit card or Bear Bucks. This is your ONLY CHANCE to buy a discounted membership this semester through the Climbing Club! If you can’t make it, send a friend to purchase for you. 
-        
+        sectionHeader: "Membership Sale January 21st",
+        copy: `Our spring membership sale has already passed, so if you are interested in becoming involved but did not purchase a membership through us we suggest purchasing a regular membership through the gym and joining our GroupMe <a href="https://groupme.com/join_group/57155868/89fk2bMH" target="_blank">here</a>.
+
         The Climbing Team will be practicing at Upper Limits this semester.`,
         body: (
           <React.Fragment>
           <p>
             The Climbing Team will be practicing at Upper Limits this semester.
-            Memberships will last the length of the semester: we will send exact dates shortly. 
+            Memberships will last until May 31st.
           </p>
           <span style={{color: "darkorange"}}>
             <h3>Upper Limits Membership Deal</h3>
-            <h4 style={{fontWeight: "300"}}>Student Price: $110, Graduate Student / Faculty / Staff Price: $160</h4>
-          </span>          
+            <h4 style={{fontWeight: "300"}}>Student Price: $120, Graduate Student / Faculty / Staff Price: $160</h4>
+          </span>
             <ul>
               <li>Unlimited Climbing Access to all 4 Upper Limits Gyms</li>
               <li>20% Pro Shop Discount</li>
               <li>1 free Rock Gym 101 class OR Lead 101 Class</li>
-              <li>24 Hour Training Room Access</li>
+              <li>$20 discounted access to the Maryland Heights Boardroom</li>
             </ul>
           <br></br>
           <span style={{color: "green"}}>
             <h3>Climb So Ill Membership Deal</h3>
-            <h4 style={{fontWeight: "300"}}>Student Price: $130, Graduate Student / Faculty / Staff Price: $180</h4>
-          </span>          
+            <h4 style={{fontWeight: "300"}}>Student Price: $140, Graduate Student / Faculty / Staff Price: $180</h4>
+          </span>
             <ul>
               <li>Premium Membership</li>
               <li>Free Belay class and free Bouldering class. </li>
-              <li>Gear package deal for up to 25% off for harness, shoes and chalk bags.</li> 
+              <li>Gear package deal for up to 25% off for harness, shoes and chalk bags.</li>
               <li>Unlimited access to Climb So Ill gym </li>
             </ul>
           </React.Fragment>)
@@ -168,11 +168,11 @@ export const data = {
             </span>
             <span>
               <h2>Mailing List Subscribe: </h2>
-              <a href="http://climbing.wustl.edu/mailman/listinfo/wuclimbing_climbing.wustl.edu" target="_blank">subscribe link</a>
+              <a href="http://eepurl.com/gCMOJ5" target="_blank">subscribe link</a>
             </span>
             <span>
               <h2>Mailing List Unsubscribe: </h2>
-              <a href="http://climbing.wustl.edu/mailman/options/wuclimbing_climbing.wustl.edu" target="_blank">unsubscribe link</a>
+              <a href="https://gmail.us4.list-manage.com/unsubscribe?u=b83c6ceec65e1f78b6f143739&id=e749fd9fee" target="_blank">unsubscribe link</a>
             </span>
             <span>
               <h2>Facebook : </h2>
