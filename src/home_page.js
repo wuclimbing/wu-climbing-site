@@ -14,7 +14,7 @@ importAll(require.context('./images', false, /[\w]+\.[jpg]/));
 const masonryOptions = {
   transitionDuration: 0
 };
- 
+
 export default class HomePage extends React.Component {
   constructor(props) {
     super(props)
@@ -41,7 +41,7 @@ export default class HomePage extends React.Component {
       case 'about':
         this.page = (
           <React.Fragment>
-          {this.data['about_page'].windows.map((window, index) => { 
+          {this.data['about_page'].windows.map((window, index) => {
               return (
                 <WindowContainer
                   className="club-name"
@@ -77,7 +77,7 @@ export default class HomePage extends React.Component {
             width='50%'
             maxHeight="400px"
           >
-          {this.data['faqs_page'].faqs.map((faq, index) => { 
+          {this.data['faqs_page'].faqs.map((faq, index) => {
               return (
                 <div className="faq" key={faq + index}>
                   <h2>{faq[0]}</h2>
@@ -108,11 +108,11 @@ export default class HomePage extends React.Component {
             </span>
             <span>
               <h2>Mailing List Subscribe: </h2>
-              <a href="http://climbing.wustl.edu/mailman/listinfo/wuclimbing_climbing.wustl.edu" target="_blank">subscribe link</a>
+              <a href="http://eepurl.com/gCMOJ5" target="_blank">subscribe link</a>
             </span>
             <span>
               <h2>Mailing List Unsubscribe: </h2>
-              <a href="http://climbing.wustl.edu/mailman/options/wuclimbing_climbing.wustl.edu" target="_blank">unsubscribe link</a>
+              <a href="https://gmail.us4.list-manage.com/unsubscribe?u=b83c6ceec65e1f78b6f143739&id=e749fd9fee" target="_blank">unsubscribe link</a>
             </span>
             <span>
               <h2>Facebook : </h2>
@@ -130,7 +130,7 @@ export default class HomePage extends React.Component {
         case 'trips':
         this.page = (
           <React.Fragment>
-          {this.data['trips_page'].windows.map((window, index) => { 
+          {this.data['trips_page'].windows.map((window, index) => {
               return (
                 <WindowContainer
                   className="club-name"
@@ -176,16 +176,16 @@ export default class HomePage extends React.Component {
             Memberships are active!
           </h3>
           <p className="home-news">
-            Spring memberships are active! If you purchased a membership this previous spring, it is active from now through Saturday, September 8th.
+            Spring memberships are active! If you purchased an Upper Limits membership this spring, it is active through May 31st. If you purchased a Climb So iLL membership, it is active through May 6th.
           </p>
           <h3 className="header">
-            Tickets Available for Holy Boulders Comp
+            So iLL Showdown
           </h3>
           <p className="home-news">
-            The Holy Boulders competition in southern illinois is happening on November 2nd, and the climbing club will be able to reimburse some or all of your entry fee. We will be posting a google form soon to sign up for reimbursement, and to organize carpools and camping for the event. Keep your eye out!
+            Stay tuned for information about the So iLL Showdown, this semester's subsidized competition.
           </p>
           </WindowContainer>
-          
+
           </React.Fragment>)
         break;
     }
@@ -213,13 +213,13 @@ export default class HomePage extends React.Component {
           </div>
           <br></br>
           <p className="home-copy">
-          Welcome to the 2k18 official website of the wash u climbing club. Check out here for information on memberships, club practices, cool events, good stories, sick pics and other junk.
+          Welcome to the 2k20 official website of the wash u climbing club. Check out here for information on memberships, club practices, cool events, good stories, sick pics and other junk.
           </p>
         </WindowContainer>
         {this.page}
         <span className="grid-container">
-          <Masonry 
-            options={masonryOptions} 
+          <Masonry
+            options={masonryOptions}
             className="image-grid"
           >
           {this.imageGrid}
